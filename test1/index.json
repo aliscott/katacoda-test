@@ -11,8 +11,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
-      "courseData": "setup.sh",
+      "text": "intro.md",
+      "courseData": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
