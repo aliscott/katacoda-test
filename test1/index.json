@@ -24,6 +24,6 @@
     "hidefinish": true
   },
   "backend": {
-    "imageid": "ubuntu1904"
+    "imageid": "centos-cluster2"
   }
 }
