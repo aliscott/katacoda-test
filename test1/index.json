@@ -13,11 +13,11 @@
       }
     ],
     "assets": {
-      "client01": [
+      "client0": [
         {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ],
-      "client02": [
+      "client1": [
         {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
