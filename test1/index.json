@@ -6,25 +6,15 @@
   "details": {
     "intro": {
       "courseData": "background.sh",
-      "code": "foreground.sh",
       "text": "intro.md"
     },
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "background.sh"
       }
-    ],
-    "assets": {
-      "client0": [
-        {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-        {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
-      ],
-      "client1": [
-        {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-        {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
-      ]
-    }
+    ]
   },
   "environment": {
     "uilayout": "terminal-terminal",
