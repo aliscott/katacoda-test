@@ -1,1 +1,1 @@
-cd /root
+touch /tmp/here
