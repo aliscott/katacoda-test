@@ -4,12 +4,15 @@
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+      "text": "intro.md"
+    }
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "courseData": "background.sh",
-        "code": "foreground.sh"
+        "text": "step1.md"
       }
     ],
     "assets": {
@@ -25,10 +28,10 @@
   },
   "environment": {
     "uilayout": "terminal-terminal",
-    "hideintro": true,
-    "hidefinish": true
+    "hideintro": false,
+    "hidefinish": false
   },
   "backend": {
-    "imageid": "bash-cluster2"
+    "imageid": "centos-cluster2"
   }
 }
