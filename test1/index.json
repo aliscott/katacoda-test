@@ -8,14 +8,19 @@
       {
         "title": "Step 1",
         "text": "step1.md"
+        "courseData": "background.sh",
+        "code": "foreground.sh"
       }
     ],
-    "intro": {
-      "text": "intro.md",
-      "courseData": "setup.sh"
-    },
-    "finish": {
-      "text": "finish.md"
+    "assets": {
+      "host01": [
+        {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+        {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ],
+      "host02": [
+        {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+        {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
     }
   },
   "environment": {
