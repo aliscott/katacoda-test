@@ -29,6 +29,6 @@
     "hidefinish": true
   },
   "backend": {
-    "imageid": "centos-cluster2"
+    "imageid": "bash-cluster2"
   }
 }
